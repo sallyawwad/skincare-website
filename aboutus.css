@@ -1,0 +1,72 @@
+.main-container{
+    display: flex;
+   margin-left: 20%;
+
+}
+
+.aboutus{
+    margin-left:30px;
+    width:300px;
+    margin-top:60px;
+    margin-right: 10px;
+   
+
+}
+.aboutusdescr{
+    font-size: 20px;
+}
+
+.paboutus{
+    font-family: 'Dancing Script', cursive;
+    color:#7f2546;
+    font-size: 45px;
+}
+.selena{
+    height:500px;
+    width:500px;
+    object-fit: contain;
+    margin-top:30px;
+    margin-left:100px;
+}
+
+.founder-quote{
+    margin-top: 100px;
+    background-color: white;
+    
+}
+
+.quote{
+    text-align: center;
+    color: #7f2546;
+    }
+
+.actualquote{
+    font-size: 45px;
+    width:500px;
+    text-align: center;
+    justify-content: center;
+    font-family:'Dancing Script', cursive;
+    margin-left:33%;
+}
+
+.ourmission{
+    display: flex;
+}
+
+.ourmission-text{
+    font-size: 18px;
+    width:500px;
+    margin-left:100px;
+}
+.OM{
+    font-family: 'Dancing Script', cursive;
+    color:#7f2546;
+    font-size: 45px;
+    text-align: center;
+}
+
+.selena-crying{
+    width:500px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}

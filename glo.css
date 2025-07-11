@@ -1,0 +1,402 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@300&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@300&family=Raleway:wght@100&display=swap');
+body{
+    background-color: #fdf8f8;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fdf8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+nav img {
+    max-height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7f2546;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.01s ease;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #7f2546;
+}
+
+@media only screen and (max-width:600px){
+    nav ul{
+        height:230px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.hello{
+text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #7f2546 10%,
+     #CD5E77 30%,
+     #E17F93 29%,
+     #EBA7AC 67%,
+     #F4C2C2 40%,
+     #EE959E 50%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+   font-size: 60px;
+   text-align:center;
+   margin-left: 32%;
+   margin-top: -30px;
+ }
+ 
+ @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+ }
+
+
+    footer {
+        background-color:#fdf8f8;
+       
+        display: flex;
+       
+        height:400px;
+       
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+
+.footerContainer{
+    
+    display:flex;
+    gap:50%;
+    
+   
+}
+
+.pfooter1{
+    color:#7f2546;
+    font-size: 14px;
+    width:400px;
+}
+.pfooter2{
+    color:#7f2546;
+    font-size: 12px;
+    width:400px;
+}
+
+input[type=email] {
+    border: none;
+    width:250px;
+    height:20px;
+    background-color: #fdf8f8;
+    }
+
+::placeholder{
+    font-size: 16px;
+    font-family: sans-serif;
+    color:rgb(141, 129, 129);
+}
+.JoinUs{
+    background-color: #fdf8f8;
+    border:none;
+    font-size: 16px;
+    color:rgb(141, 129, 129);
+}
+
+.footer-ul{
+    display: flex;
+    gap:8px;   
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.connect{
+    color: #7f2546;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.footer-ul-2 a,.footer-ul a{
+    text-decoration: none;
+    color: #7f2546;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.footer-ul-2{
+    display: flex;
+    gap:8px;   
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-ul-2 a:hover {
+    border-bottom: 1px solid #7f2546;
+}
+
+.maps{
+   margin-top: 20px;
+    
+}
+
+hr{
+    color: #7f2546;
+}
+
+.newsletter{
+    width:350px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.map_canvas{
+    width:500px;
+    height: 500px;
+}
+
+.footerContainer{
+    display: flex;
+    width:400px;
+}
+
+.ourlocation{
+    font-size: 30px;
+    color: #7f2546;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+#quote {
+
+    background-size: cover;
+    padding: 100px;
+    width: 300px;
+	height: 100px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #CD5E77;
+    text-shadow: 0px 0px 10px #CD5E77;
+    margin-top: 20px;
+    
+    margin-left: 18%;
+    
+}
+
+.color{
+    background-color: #fdf8f8;
+    height:100px;
+    width:max-content;
+}
+
+.gif{
+    height:400px;
+    width:350px;
+    border-radius: 10px;
+    margin-left: 300px;
+   
+}
+.container{
+    background-color: white;
+    display: flex;
+    
+}
+.ourStoryTitle{
+    font-family: 'Dancing Script', cursive;
+    color:#7f2546;
+    font-size: 45px;
+    
+}
+.ourStory{
+    border-radius: 500px;
+}
+
+.container2{
+    width:350px;
+    margin-left:200px;
+    margin-top: 200px;
+}
+.ourStoryText ,.featuredText{
+    font-size: 20px;
+}
+
+.linkourstory a{
+    text-decoration: none;
+    color: #7f2546;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.linkourstory a:hover {
+    border-bottom: 1px solid #7f2546;
+}
+.featured{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+
+}
+
+.FeaturesTitle{
+    font-family: 'Dancing Script', cursive;
+    color:#7f2546;
+    font-size: 45px;
+   
+}
+.befeatured{
+    width:350px;
+    
+}
+
+section{
+    position: relative;
+    padding: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.content{
+    position: relative;
+    width: 100%; 
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content  .textBox{
+    position: relative;
+    max-width: 600px ;
+
+}
+.content  .textBox p{
+    color:#333;
+}
+
+.content  .textBox h2{
+    color:#333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content  .textBox h2 span{
+    color:#7f2546;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .imgBox{
+    width:600px;
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.content .imgBox img{
+    max-width: 340px;
+    background-blend-mode: color-dodge;
+}
+
+.content  .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    
+    
+    color: #7f2546;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.textBox a:hover{
+    border-bottom: 1px solid #7f2546;
+}
+
+.thumb{
+    position: absolute;
+    left:50%;
+    bottom:20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover{
+    transform:translateY(-15px);
+}
+
+.thumb li img{
+    max-width: 60px;
+
+}
+
+.circle{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: #7f2546;
+    clip-path: circle(600px at right 800px);
+}
+
+.best{
+    font-family: 'Dancing Script', cursive;
+    color:#7f2546;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+
+.background{
+    display:flex;
+}
+
+
+

@@ -1,0 +1,28 @@
+
+
+.text{
+    margin-left: 100px;
+    margin-right:100px;
+    color:rgb(34, 30, 30);
+}
+.titles{
+    margin-left: 100px;
+    color:#7f2546;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.big{
+    margin-left: 40px;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    color:rgb(34, 30, 30);
+}
+
+.small{
+    font-size: 15px; 
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}

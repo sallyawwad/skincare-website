@@ -1,0 +1,26 @@
+# Ignore config files with secrets
+config.php
+*.env
+
+# Ignore uploads and user-generated files
+upload/
+uploads/
+
+# Ignore SQL dumps and logs
+*.sql
+*.log
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# OS/system files
+Thumbs.db
+.DS_Store
+
+# Ignore node modules and build artifacts (if any JS present)
+node_modules/
+dist/
+
+# Ignore Composer vendor directory if using Composer (PHP package manager)
+vendor/
