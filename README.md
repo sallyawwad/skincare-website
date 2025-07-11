@@ -24,13 +24,13 @@ Glo SkinCare is a PHP-based web app featuring a product catalog with shopping ca
 - Uses jQuery to evaluate user answers on submission and display personalized skin type results with descriptions and images dynamically.
 
 - Provides a “Try Again” button to reload the quiz without refreshing the entire page manually.
-![Quiz question page](images/Screenshot (161).png)  
+![Quiz question page](images/Screenshot1.png)  
 *Screenshot showing the quiz question page with multiple choice answers.*
 
-![Quiz result page](images/Screenshot (162).png)  
+![Quiz result page](images/Screenshot2.png)  
 *Screenshot showing the quiz result page with personalized skin type recommendation.*
 
 ### Articles page: `articles.php`
 The Articles page offers helpful skincare advice and tips for users looking to improve their routine.
-![Skincare Articles](images/Screenshot (163).png) 
+![Skincare Articles](images/Screenshot3.png) 
 *Screenshot showing the list of skincare articles.*
